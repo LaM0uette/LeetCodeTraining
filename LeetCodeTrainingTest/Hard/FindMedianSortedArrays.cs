@@ -41,4 +41,14 @@ public class FindMedianSortedArrays
         var r = GetResult();
         Assert.True(r.Equals(2.5));
     }
+    
+    [Fact]
+    public void Test3()
+    {
+        _nums1 = new []{1, 1};
+        _nums2 = new []{1, 2};
+
+        var r = GetResult();
+        Assert.True(r.Equals(1));
+    }
 }
