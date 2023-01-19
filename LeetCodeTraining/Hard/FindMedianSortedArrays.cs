@@ -10,11 +10,6 @@ public static partial class Solution
         var n = nums.Length;
         var d = Math.Floor((double)n/2);
 
-        foreach (var num in nums)
-        {
-            Console.WriteLine(num);
-        }
-
         return (n % 2).Equals(0) ? (double)(nums[(int)d-1] + nums[(int)d])/2 : nums[(int)d];
     }
 }

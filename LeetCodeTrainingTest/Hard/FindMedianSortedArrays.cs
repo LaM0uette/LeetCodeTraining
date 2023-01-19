@@ -5,6 +5,8 @@ namespace LeetCodeTrainingTest.Hard;
 
 public class FindMedianSortedArrays
 {
+    #region Statements
+
     private readonly ITestOutputHelper _print;
     private static int[] _nums1 = null!;
     private static int[] _nums2 = null!;
@@ -21,6 +23,10 @@ public class FindMedianSortedArrays
 
         return result;
     }
+
+    #endregion
+
+    //
 
     [Fact]
     public void Test1()
