@@ -1,6 +1,4 @@
-﻿using LeetCodeTraining.Hard;
-
-namespace LeetCodeTraining;
+﻿namespace LeetCodeTraining;
 
 public static class Program
 {
