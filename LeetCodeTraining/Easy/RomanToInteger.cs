@@ -24,6 +24,11 @@ public class RomanToInteger
     {
         return Regex.IsMatch(s, validPattern, RegexOptions.Multiline);
     }
+    
+    public static bool CheckMaxRomanNumber(int num)
+    {
+        return num is >= 1 and <= 3999;
+    }
 
     private static int RegexRomanToInt(string s)
     {

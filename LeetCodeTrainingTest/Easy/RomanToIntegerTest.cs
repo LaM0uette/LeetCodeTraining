@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using LeetCodeTraining.Easy;
+﻿using LeetCodeTraining.Easy;
 
 namespace LeetCodeTrainingTest.Easy;
 
@@ -77,5 +76,17 @@ public class RomanToIntegerTest
     {
         Assert.False(RomanToInteger.CheckValidString("51"));
         Assert.False(RomanToInteger.CheckValidString("Test"));
+    }
+    
+    [Fact]
+    public void CheckMaxRomanNumber_117_Ok()
+    {
+        Assert.True(RomanToInteger.CheckMaxRomanNumber(117));
+    }
+    
+    [Fact]
+    public void CheckMaxRomanNumber_4000_Nok()
+    {
+        Assert.False(RomanToInteger.CheckMaxRomanNumber(4000));
     }
 }
