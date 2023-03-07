@@ -13,7 +13,7 @@ public class RomanToInteger
         return RegexRomanToInt(s);
     }
 
-    private static bool CheckLength(string s)
+    public static bool CheckLength(string s)
     {
         return s.Length is >= 1 and <= 15;
     }

@@ -1,4 +1,5 @@
-﻿using LeetCodeTraining.Easy;
+﻿using System.Diagnostics;
+using LeetCodeTraining.Easy;
 
 namespace LeetCodeTrainingTest.Easy;
 
@@ -34,6 +35,12 @@ public class RomanToIntegerTest
         Assert.Equal(900, RomanToInteger.RomanToInt("CM"));
         Assert.Equal(1000, RomanToInteger.RomanToInt("M"));
     }
+
+    [Fact]
+    public void RomanToInt_XLIX_49()
+    {
+        Assert.Equal(49, RomanToInteger.RomanToInt("XLIX"));
+    }
     
     [Fact]
     public void RomanToInt_LVIII_58()
@@ -47,5 +54,15 @@ public class RomanToIntegerTest
         Assert.Equal(1994, RomanToInteger.RomanToInt("MCMXCIV"));
     }
     
+    [Fact]
+    public void CheckLength_Length_Ok()
+    {
+        Assert.True(RomanToInteger.CheckLength("IX"));
+    }
     
+    [Fact]
+    public void CheckLength_Length_False()
+    {
+        Assert.False(RomanToInteger.CheckLength("IXVIXIVIXIVIXIVIXIVIXVIXIVXI"));
+    }
 }
