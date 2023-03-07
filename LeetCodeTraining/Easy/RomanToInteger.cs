@@ -38,6 +38,8 @@ public class RomanToInteger
         {
             num += GetRomanToInt(m.Value);
         }
+        
+        if (!CheckMaxRomanNumber(num)) throw new Exception();
 
         return num;
     }
