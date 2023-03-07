@@ -5,10 +5,12 @@ namespace LeetCodeTraining.Easy;
 public class RomanToInteger
 {
     private const string pattern = @"(?:IV|IX|XL|XC|CD|CM|I|V|X|L|C|D|M)";
+    private const string validPattern = @"(?:I|V|X|L|C|D|M)";
     
     public int RomanToInt(string s)
     {
         if (!CheckLength(s)) throw new Exception();
+        if (!CheckValidString(s)) throw new Exception();
         
         return RegexRomanToInt(s);
     }
@@ -16,6 +18,11 @@ public class RomanToInteger
     public static bool CheckLength(string s)
     {
         return s.Length is >= 1 and <= 15;
+    }
+    
+    public static bool CheckValidString(string s)
+    {
+        return Regex.IsMatch(s, validPattern, RegexOptions.Multiline);
     }
 
     private static int RegexRomanToInt(string s)

@@ -65,4 +65,17 @@ public class RomanToIntegerTest
     {
         Assert.False(RomanToInteger.CheckLength("IXVIXIVIXIVIXIVIXIVIXVIXIVXI"));
     }
+
+    [Fact]
+    public void CheckValidString_XIV_Ok()
+    {
+        Assert.True(RomanToInteger.CheckValidString("XIV"));
+    }
+    
+    [Fact]
+    public void CheckValidString_51etTest_Nok()
+    {
+        Assert.False(RomanToInteger.CheckValidString("51"));
+        Assert.False(RomanToInteger.CheckValidString("Test"));
+    }
 }
