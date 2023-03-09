@@ -5,7 +5,19 @@ namespace LeetCodeTrainingTest.Medium;
 public class LongestPalindromicSubstringTest
 {
     private LongestPalindromicSubstring _longestPs = new();
+
+    [Fact]
+    public void LongestPalindrome_a_a()
+    {
+        Assert.Equal("a", _longestPs.LongestPalindrome("a"));
+    }
     
+    [Fact]
+    public void LongestPalindrome_aacabdkacaa_aacabdkacaa()
+    {
+        Assert.Equal("aacabdkacaa", _longestPs.LongestPalindrome("aacabdkacaa"));
+    }
+
     [Fact]
     public void LongestPalindrome_babad_bab()
     {

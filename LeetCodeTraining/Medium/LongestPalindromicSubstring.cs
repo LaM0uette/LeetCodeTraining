@@ -14,7 +14,7 @@ public class LongestPalindromicSubstring
         {
             var inMax = 0;
             
-            for (var i = idx+1; i < s.Length; i++)
+            for (var i = idx; i < s.Length; i++)
             {
                 if (s[i].Equals(sChar))
                 {

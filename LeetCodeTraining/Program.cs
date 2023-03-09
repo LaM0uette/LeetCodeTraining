@@ -7,7 +7,7 @@ public static class Program
     public static void Main()
     {
         var longestPs = new LongestPalindromicSubstring();
-        var s = longestPs.LongestPalindrome("01110");
+        var s = longestPs.LongestPalindrome("aacabdkacaa");
         
         Console.WriteLine(s);
     }
