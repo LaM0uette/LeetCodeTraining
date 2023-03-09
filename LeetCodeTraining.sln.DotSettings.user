@@ -9,5 +9,6 @@
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ZigzagConversion.Test2&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Easy.RomanToIntegerTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LongestPalindromicSubstringTest.LongestPalindrome_babad_bab&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LongestPalindromicSubstringTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
