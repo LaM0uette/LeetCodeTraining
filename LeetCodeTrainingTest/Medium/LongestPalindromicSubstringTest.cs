@@ -35,4 +35,16 @@ public class LongestPalindromicSubstringTest
     {
         Assert.Equal("011101010", _longestPs.LongestPalindrome("011101010"));
     }
+    
+    [Fact]
+    public void CheckMaxLength_50_True()
+    {
+        Assert.True(_longestPs.CheckMaxLength(50));
+    }
+    
+    [Fact]
+    public void CheckMaxLength_1001_False()
+    {
+        Assert.False(_longestPs.CheckMaxLength(1001));
+    }
 }
