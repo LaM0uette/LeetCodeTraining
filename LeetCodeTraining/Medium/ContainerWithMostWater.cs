@@ -17,7 +17,6 @@ public class ContainerWithMostWater
             if (!CheckHeight(minHeight)) return 0;
             
             var area = minHeight * (right - left);
-            
             if (area > maxArea) maxArea = area;
             
             if (height[left] < height[right])
