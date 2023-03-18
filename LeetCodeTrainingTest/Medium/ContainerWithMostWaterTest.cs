@@ -26,4 +26,28 @@ public class ContainerWithMostWaterTest
     [Fact]
     public void MaxArea_186254837_49() => 
         Assert.Equal(49, GetMaxArea(new[] {1, 8, 6, 2, 5, 4, 8, 3, 7}));
+
+    [Fact]
+    public void CheckMaxLength_5_true() =>
+        Assert.True(ContainerWithMostWater.CheckMaxLength(5));
+    
+    [Fact]
+    public void CheckMaxLength_100000_true() =>
+        Assert.True(ContainerWithMostWater.CheckMaxLength(100000));
+    
+    [Fact]
+    public void CheckMaxLength_100001_false() =>
+        Assert.False(ContainerWithMostWater.CheckMaxLength(100001));
+    
+    [Fact]
+    public void CheckHeight_5_true() =>
+        Assert.True(ContainerWithMostWater.CheckHeight(5));
+    
+    [Fact]
+    public void CheckHeight_10000_true() =>
+        Assert.True(ContainerWithMostWater.CheckHeight(10000));
+    
+    [Fact]
+    public void CheckHeight_10001_false() =>
+        Assert.False(ContainerWithMostWater.CheckHeight(10001));
 }
