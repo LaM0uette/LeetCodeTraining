@@ -52,5 +52,11 @@ public class LetterCombinationsPhoneNumberTest
     public void LetterCombinations_9_wxyz() =>
         Assert.Equal(new List<string>{"w", "x", "y", "z"}, GetCombinations("9"));
     
-    
+    [Fact]
+    public void LetterCombinations_23_adaeafbdbebfcdcecf()
+    {
+        var lst = new List<string>{"ad","ae","af","bd","be","bf","cd","ce","cf"};
+        Assert.Equal(lst, GetCombinations("23"));
+    }
+
 }

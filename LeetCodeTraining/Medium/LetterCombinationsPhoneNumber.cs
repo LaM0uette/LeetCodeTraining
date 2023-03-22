@@ -1,23 +1,48 @@
-﻿namespace LeetCodeTraining.Medium;
+﻿using System.Text;
+
+namespace LeetCodeTraining.Medium;
 
 public class LetterCombinationsPhoneNumber
 {
-    private Dictionary<string, List<string>> digitToListMap = new(){
-        { "2", new List<string> {"a", "b", "c"} },
-        { "3", new List<string> {"d", "e", "f"} },
-        { "4", new List<string> {"g", "h", "i"} },
-        { "5", new List<string> {"j", "k", "l"} },
-        { "6", new List<string> {"m", "n", "o"} },
-        { "7", new List<string> {"p", "q", "r", "s"} },
-        { "8", new List<string> {"t", "u", "v"} },
-        { "9", new List<string> {"w", "x", "y", "z"} }
+    private Dictionary<char, string> digitToLetters = new Dictionary<char, string> {
+        {'2', "abc"},
+        {'3', "def"},
+        {'4', "ghi"},
+        {'5', "jkl"},
+        {'6', "mno"},
+        {'7', "pqrs"},
+        {'8', "tuv"},
+        {'9', "wxyz"},
     };
 
     public IList<string> LetterCombinations(string digits)
     {
-        return GetNumberList(digits);
+        var result = new List<string>();
+        
+        if (string.IsNullOrEmpty(digits)) return result;
+        
+        Backtrack(digits, 0, new StringBuilder(), result);
+        
+        return result;
     }
 
-    private IList<string> GetNumberList(string digit) => 
-        digitToListMap.TryGetValue(digit, out var lst) ? lst : new List<string>();
+    private void Backtrack(string digits, int index, StringBuilder current, ICollection<string> result)
+    {
+        if (digits.Length.Equals(index))
+        {
+            result.Add(current.ToString());
+            return;
+        }
+
+        var digit = digits[index];
+        
+        if (!digitToLetters.TryGetValue(digit, out var letters)) return;
+        
+        foreach (var letter in letters)
+        {
+            current.Append(letter);
+            Backtrack(digits, index+1, current, result);
+            current.Remove(current.Length - 1, 1);
+        }
+    }
 }
