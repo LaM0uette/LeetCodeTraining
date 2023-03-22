@@ -15,23 +15,36 @@ public class LetterCombinationsPhoneNumberTest
     }
     
     [Fact]
-    public void LetterCombinations_2_abc()
-    {
-        var lst = new List<string>{"a", "b", "c"};
-        Assert.Equal(lst, GetCombinations("2"));
-    }
+    public void LetterCombinations_2_abc() =>
+        Assert.Equal(new List<string>{"a", "b", "c"}, GetCombinations("2"));
     
     [Fact]
-    public void LetterCombinations_3_def()
-    {
-        var lst = new List<string>{"d", "e", "f"};
-        Assert.Equal(lst, GetCombinations("3"));
-    }
+    public void LetterCombinations_3_def() =>
+        Assert.Equal(new List<string>{"d", "e", "f"}, GetCombinations("3"));
     
     [Fact]
-    public void LetterCombinations_23_adaeafbdbebfcdcecf()
-    {
-        var lst = new List<string>{"ad","ae","af","bd","be","bf","cd","ce","cf"};
-        Assert.Equal(lst, GetCombinations("23"));
-    }
+    public void LetterCombinations_4_ghi() =>
+        Assert.Equal(new List<string>{"g", "h", "i"}, GetCombinations("4"));
+    
+    [Fact]
+    public void LetterCombinations_5_jkl() =>
+        Assert.Equal(new List<string>{"j", "k", "l"}, GetCombinations("5"));
+    
+    [Fact]
+    public void LetterCombinations_6_mno() =>
+        Assert.Equal(new List<string>{"m", "n", "o"}, GetCombinations("6"));
+    
+    [Fact]
+    public void LetterCombinations_7_pqrs() =>
+        Assert.Equal(new List<string>{"p", "q", "r", "s"}, GetCombinations("7"));
+    
+    [Fact]
+    public void LetterCombinations_8_tuv() =>
+        Assert.Equal(new List<string>{"t", "u", "v"}, GetCombinations("8"));
+    
+    [Fact]
+    public void LetterCombinations_9_wxyz() =>
+        Assert.Equal(new List<string>{"w", "x", "y", "z"}, GetCombinations("9"));
+    
+    
 }
