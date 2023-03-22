@@ -13,5 +13,7 @@
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ContainerWithMostWaterTest.MaxArea_11_1&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ContainerWithMostWaterTest.MaxArea_123_1&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ContainerWithMostWaterTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LetterCombinationsPhoneNumberTest.LetterCombinations_null_&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LetterCombinationsPhoneNumberTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
