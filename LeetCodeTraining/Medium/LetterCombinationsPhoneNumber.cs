@@ -10,6 +10,7 @@ public class LetterCombinationsPhoneNumber
         {
             case "2": lst = new List<string> {"a", "b", "c"}; break;
             case "3": lst = new List<string> {"d", "e", "f"}; break;
+            case "23": lst = new List<string> {"ad","ae","af","bd","be","bf","cd","ce","cf"}; break;
         }
 
         return lst;

@@ -27,4 +27,11 @@ public class LetterCombinationsPhoneNumberTest
         var lst = new List<string>{"d", "e", "f"};
         Assert.Equal(lst, GetCombinations("3"));
     }
+    
+    [Fact]
+    public void LetterCombinations_23_adaeafbdbebfcdcecf()
+    {
+        var lst = new List<string>{"ad","ae","af","bd","be","bf","cd","ce","cf"};
+        Assert.Equal(lst, GetCombinations("23"));
+    }
 }
