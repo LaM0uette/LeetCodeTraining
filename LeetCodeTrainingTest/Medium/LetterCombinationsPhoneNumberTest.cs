@@ -9,12 +9,6 @@ public class LetterCombinationsPhoneNumberTest
         _combinations.LetterCombinations(digits);
 
     [Fact]
-    public void LetterCombinations_null_()
-    {
-        Assert.Equal(new List<string>(), GetCombinations(""));
-    }
-    
-    [Fact]
     public void LetterCombinations__() =>
         Assert.Equal(new List<string>(), GetCombinations(""));
     
