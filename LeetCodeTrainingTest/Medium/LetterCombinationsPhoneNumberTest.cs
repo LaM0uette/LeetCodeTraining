@@ -13,12 +13,20 @@ public class LetterCombinationsPhoneNumberTest
         Assert.Equal(new List<string>(), GetCombinations(""));
     
     [Fact]
+    public void LetterCombinations_12345_() =>
+        Assert.Equal(new List<string>(), GetCombinations("12345"));
+    
+    [Fact]
     public void LetterCombinations_0_() =>
         Assert.Equal(new List<string>(), GetCombinations("0"));
     
     [Fact]
     public void LetterCombinations_1_() =>
         Assert.Equal(new List<string>(), GetCombinations("1"));
+    
+    [Fact]
+    public void LetterCombinations_é_() =>
+        Assert.Equal(new List<string>(), GetCombinations("é"));
     
     [Fact]
     public void LetterCombinations_2_abc() =>
