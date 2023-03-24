@@ -44,14 +44,13 @@ public class AddTwoNumbersSolution
             length++;
             listNode = listNode.next;
         }
-        return length >= 1 && length <= 100;
+        return length is >= 1 and <= 100;
     }
     private static bool ValidateNodeValues(ListNode listNode)
     {
         while (listNode != null)
         {
-            if (listNode.val is < 0 or > 9)
-                return false;
+            if (listNode.val is < 0 or > 9) return false;
             listNode = listNode.next;
         }
         return true;
