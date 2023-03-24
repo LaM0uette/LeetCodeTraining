@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\doria\AppData\Local\JetBrains\Rider2023.1\resharper-host\temp\Rider\vAny\CoverageData\_LeetCodeTraining.-978454700\Snapshot\snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1e343367_002Dbc12_002D4c02_002Dab03_002D4d2fef251637/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1e343367_002Dbc12_002D4c02_002Dab03_002D4d2fef251637/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Hard.FindMedianSortedArrays.Test1&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Hard.FindMedianSortedArrays.Test2&lt;/TestId&gt;&#xD;
@@ -16,6 +16,11 @@
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LetterCombinationsPhoneNumberTest.LetterCombinations_null_&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LetterCombinationsPhoneNumberTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.AddTwoNumbersTest.AddTwoNumbers_00_0&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.AddTwoNumbersTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=76ba82fb_002D99b6_002D497d_002Dacc4_002D024f84757c60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddTwoNumbers_0101_20" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.AddTwoNumbersTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

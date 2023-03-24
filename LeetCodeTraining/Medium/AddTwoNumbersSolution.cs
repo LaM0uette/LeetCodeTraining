@@ -13,6 +13,9 @@ public class AddTwoNumbersSolution
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
+        if (!IsValid(l1)) return new ListNode();
+        if (!IsValid(l2)) return new ListNode();
+        
         var calculatedNumber = GetNumber(l1) + GetNumber(l2);
         return GetListNode(calculatedNumber
             .ToString()
@@ -31,4 +34,26 @@ public class AddTwoNumbersSolution
     }
     
     private static ListNode GetListNode(IEnumerable<int> nums) => nums.Aggregate((ListNode?)null, (current, num) => new ListNode(num, current));
+    
+    private static bool IsValid(ListNode listNode) => ValidateLength(listNode) && ValidateNodeValues(listNode);
+    private static bool ValidateLength(ListNode listNode)
+    {
+        var length = 0;
+        while (listNode is not null)
+        {
+            length++;
+            listNode = listNode.next;
+        }
+        return length >= 1 && length <= 100;
+    }
+    private static bool ValidateNodeValues(ListNode listNode)
+    {
+        while (listNode != null)
+        {
+            if (listNode.val is < 0 or > 9)
+                return false;
+            listNode = listNode.next;
+        }
+        return true;
+    }
 }
