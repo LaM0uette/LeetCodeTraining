@@ -14,26 +14,21 @@ public class AddTwoNumbersSolution
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
         var calculatedNumber = GetNumber(l1) + GetNumber(l2);
-
-        ListNode ln = new();
-        ln = GetListNode(calculatedNumber.ToString().Select(x => int.Parse(x.ToString())));
-        
-        return ln;
+        return GetListNode(calculatedNumber
+            .ToString()
+            .Select(x => int.Parse(x.ToString())));
     }
     
-    private static ListNode GetListNode(IEnumerable<int> nums) =>
-        nums.Aggregate((ListNode?)null, (current, num) => new ListNode(num, current));
-
     private static int GetNumber(ListNode listNode)
     {
         var number = "";
-        
         while (listNode is not null)
         {
             number += listNode.val;
             listNode = listNode.next;
         }
-        
         return int.Parse(number);
     }
+    
+    private static ListNode GetListNode(IEnumerable<int> nums) => nums.Aggregate((ListNode?)null, (current, num) => new ListNode(num, current));
 }

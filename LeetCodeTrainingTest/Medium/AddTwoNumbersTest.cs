@@ -75,6 +75,18 @@ public class AddTwoNumbersTest
     }
     
     [Fact]
+    public void AddTwoNumbers_010020_30()
+    {
+        var l1 = GetListNode(new[] {0, 1, 0});
+        var l2 = GetListNode(new[] {0, 2, 0});
+        
+        var expected = GetListNode(new[] {3, 0});
+        var actual = GetSolution(l1, l2);
+        
+        Assert.True(AreEqual(expected, actual));
+    }
+    
+    [Fact]
     public void AddTwoNumbers_243564_708()
     {
         var l1 = GetListNode(new[] {2, 4, 3});
