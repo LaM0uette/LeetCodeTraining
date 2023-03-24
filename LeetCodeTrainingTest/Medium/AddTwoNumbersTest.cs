@@ -56,7 +56,7 @@ public class AddTwoNumbersTest
         var l1 = GetListNode(new[] {0, 0});
         var l2 = GetListNode(new[] {0, 0});
         
-        var expected = GetListNode(new[] {0});
+        var expected = GetListNode(new[] {0, 0});
         var actual = GetSolution(l1, l2);
         
         Assert.True(AreEqual(expected, actual));
@@ -68,7 +68,7 @@ public class AddTwoNumbersTest
         var l1 = GetListNode(new[] {0, 1});
         var l2 = GetListNode(new[] {0, 1});
         
-        var expected = GetListNode(new[] {2, 0});
+        var expected = GetListNode(new[] {0, 2});
         var actual = GetSolution(l1, l2);
         
         Assert.True(AreEqual(expected, actual));
@@ -80,7 +80,7 @@ public class AddTwoNumbersTest
         var l1 = GetListNode(new[] {0, 1, 0});
         var l2 = GetListNode(new[] {0, 2, 0});
         
-        var expected = GetListNode(new[] {3, 0});
+        var expected = GetListNode(new[] {0, 3, 0});
         var actual = GetSolution(l1, l2);
         
         Assert.True(AreEqual(expected, actual));
@@ -99,12 +99,24 @@ public class AddTwoNumbersTest
     }
     
     [Fact]
-    public void AddTwoNumbers_9999999_9999()
+    public void AddTwoNumbers_99999999999_89990001()
     {
         var l1 = GetListNode(new[] {9, 9, 9, 9, 9, 9, 9});
         var l2 = GetListNode(new[] {9, 9, 9, 9});
         
-        var expected = GetListNode(new[] {1, 0, 0, 0, 9, 9, 9, 8});
+        var expected = GetListNode(new[] {8, 9, 9, 9, 0, 0, 0, 1}.Reverse());
+        var actual = GetSolution(l1, l2);
+        
+        Assert.True(AreEqual(expected, actual));
+    }
+
+    [Fact]
+    public void AddTwoNumbers_9429465_10407()
+    {
+        var l1 = GetListNode(new[] {9, 4, 2});
+        var l2 = GetListNode(new[] {9, 4, 6, 5});
+        
+        var expected = GetListNode(new[] {1, 0, 4, 0, 7});
         var actual = GetSolution(l1, l2);
         
         Assert.True(AreEqual(expected, actual));
