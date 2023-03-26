@@ -13,9 +13,9 @@ public class LongestPalindromicSubstringTest
     }
     
     [Fact]
-    public void LongestPalindrome_aacabdkacaa_aacabdkacaa()
+    public void LongestPalindrome_aacabdkacaa_aca()
     {
-        Assert.Equal("aacabdkacaa", _longestPs.LongestPalindrome("aacabdkacaa"));
+        Assert.Equal("aca", _longestPs.LongestPalindrome("aacabdkacaa"));
     }
 
     [Fact]
@@ -31,9 +31,9 @@ public class LongestPalindromicSubstringTest
     }
     
     [Fact]
-    public void LongestPalindrome_babadbabad_babadbab()
+    public void LongestPalindrome_babadbabad_bab()
     {
-        Assert.Equal("babadbab", _longestPs.LongestPalindrome("babadbabad"));
+        Assert.Equal("bab", _longestPs.LongestPalindrome("babadbabad"));
     }
     
     [Fact]
@@ -43,20 +43,20 @@ public class LongestPalindromicSubstringTest
     }
     
     [Fact]
-    public void LongestPalindrome_011101010_011101010()
+    public void LongestPalindrome_011101010_01110()
     {
-        Assert.Equal("011101010", _longestPs.LongestPalindrome("011101010"));
+        Assert.Equal("01110", _longestPs.LongestPalindrome("011101010"));
     }
     
     [Fact]
     public void CheckMaxLength_50_True()
     {
-        Assert.True(_longestPs.CheckMaxLength(50));
+        Assert.True(LongestPalindromicSubstring.CheckMaxLength(50));
     }
     
     [Fact]
     public void CheckMaxLength_1001_False()
     {
-        Assert.False(_longestPs.CheckMaxLength(1001));
+        Assert.False(LongestPalindromicSubstring.CheckMaxLength(1001));
     }
 }

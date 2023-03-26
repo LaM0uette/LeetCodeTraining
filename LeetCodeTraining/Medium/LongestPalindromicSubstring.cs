@@ -4,38 +4,34 @@ public class LongestPalindromicSubstring
 {
     public string LongestPalindrome(string s)
     {
-        if (!CheckMaxLength(s.Length)) throw new Exception();
-        
-        var idx = 0;
-        var i1 = 0;
-        var i2 = 0;
-        
-        foreach (var sChar in s)
+        if (!CheckMaxLength(s.Length)) return s;
+
+        var start = 0;
+        var maxLength = 1;
+
+        for (var i = 0; i < s.Length; i++)
         {
-            var inMax = 0;
+            var len1 = ExpandAroundCenter(s, i, i);
+            var len2 = ExpandAroundCenter(s, i, i + 1);
+            var len = Math.Max(len1, len2);
+
+            if (len <= maxLength) continue;
             
-            for (var i = idx; i < s.Length; i++)
-            {
-                if (s[i].Equals(sChar))
-                {
-                    inMax = i + 1 - idx;
-                }
-            }
-            
-            if (inMax > i2)
-            {
-                i1 = idx;
-                i2 = inMax;
-            };
-            
-            idx++;
+            start = i - (len - 1) / 2;
+            maxLength = len;
         }
-        
-        return s.Substring(i1, i2);
+        return s.Substring(start, maxLength);
+    }
+
+    private static int ExpandAroundCenter(string s, int left, int right)
+    {
+        while (left >= 0 && right < s.Length && s[left] == s[right])
+        {
+            left--;
+            right++;
+        }
+        return right - left - 1;
     }
     
-    public bool CheckMaxLength(int length)
-    {
-        return length is >= 1 and <= 1000;
-    }
+    public static bool CheckMaxLength(int length) => length is > 1 and <= 1000;
 }
