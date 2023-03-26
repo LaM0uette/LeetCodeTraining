@@ -53,4 +53,13 @@ public class ZigzagConversionTest
             GetResult("PAYPALISHIRING", 2)
             );
     }
+    
+    [Fact]
+    private void Convert_PAYPALISHIRING3_PAHNAPLSIIGYIR()
+    {
+        Assert.Equal(
+            "PAHNAPLSIIGYIR", 
+            GetResult("PAYPALISHIRING", 3)
+        );
+    }
 }
