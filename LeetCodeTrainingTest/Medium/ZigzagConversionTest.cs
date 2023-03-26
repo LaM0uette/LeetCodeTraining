@@ -15,4 +15,18 @@ public class ZigzagConversionTest
         Assert.Equal("", GetResult("", 2));
         Assert.Equal("", GetResult("", 3));
     }
+    
+    [Fact]
+    private void Convert_A123_A()
+    {
+        Assert.Equal("A", GetResult("A", 1));
+        Assert.Equal("A", GetResult("A", 2));
+        Assert.Equal("A", GetResult("A", 3));
+    }
+    
+    [Fact]
+    private void Convert_AB2_AB()
+    {
+        Assert.Equal("AB", GetResult("AB", 2));
+    }
 }
