@@ -31,8 +31,26 @@ public class ZigzagConversionTest
     }
     
     [Fact]
+    private void Convert_AB3_AB()
+    {
+        Assert.Equal("AB", GetResult("AB", 3));
+    }
+    
+    [Fact]
     private void Convert_PAYPALISHIRING1_PAYPALISHIRING()
     {
-        Assert.Equal("PAYPALISHIRING", GetResult("PAYPALISHIRING", 1));
+        Assert.Equal(
+            "PAYPALISHIRING", 
+            GetResult("PAYPALISHIRING", 1)
+            );
+    }
+    
+    [Fact]
+    private void Convert_PAYPALISHIRING2_PYAIHRNAPLSIIG()
+    {
+        Assert.Equal(
+            "PYAIHRNAPLSIIG", 
+            GetResult("PAYPALISHIRING", 2)
+            );
     }
 }
