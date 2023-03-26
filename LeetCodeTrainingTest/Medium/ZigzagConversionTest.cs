@@ -62,4 +62,40 @@ public class ZigzagConversionTest
             GetResult("PAYPALISHIRING", 3)
         );
     }
+    
+    [Fact]
+    private void Convert_PAYPALISHIRING20_PAYPALISHIRING()
+    {
+        Assert.Equal(
+            "PAYPALISHIRING", 
+            GetResult("PAYPALISHIRING", 20)
+        );
+    }
+    
+    [Fact]
+    private void Convert_AAABBBCCCDDD4_ACABCDABCDBD()
+    {
+        Assert.Equal(
+            "ACABCDABCDBD", 
+            GetResult("AAABBBCCCDDD", 4)
+        );
+    }
+    
+    [Fact]
+    private void Convert_Spé5_Spé()
+    {
+        Assert.Equal(
+            "aYBxzc#!@2", 
+            GetResult("aBc!2@#xYz", 5)
+        );
+    }
+    
+    [Fact]
+    private void Convert_Hello_World4_HWeolordll()
+    {
+        Assert.Equal(
+            "HWe olordll", 
+            GetResult("Hello World", 4)
+        );
+    }
 }
