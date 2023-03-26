@@ -29,4 +29,10 @@ public class ZigzagConversionTest
     {
         Assert.Equal("AB", GetResult("AB", 2));
     }
+    
+    [Fact]
+    private void Convert_PAYPALISHIRING1_PAYPALISHIRING()
+    {
+        Assert.Equal("PAYPALISHIRING", GetResult("PAYPALISHIRING", 1));
+    }
 }
