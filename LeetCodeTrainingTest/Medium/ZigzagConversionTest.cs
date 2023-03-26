@@ -9,8 +9,10 @@ public class ZigzagConversionTest
         _zzConvert.Convert(s, numRows);
 
     [Fact]
-    private void Convert_null1_null()
+    private void Convert_null123_null()
     {
         Assert.Equal("", GetResult("", 1));
+        Assert.Equal("", GetResult("", 2));
+        Assert.Equal("", GetResult("", 3));
     }
 }
