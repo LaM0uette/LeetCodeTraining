@@ -14,4 +14,8 @@ public class LongestSubstringWithoutRepeatingCharactersTest
     [Fact]
     private void LengthOfLongestSubstring_abcabcbb_3() =>
         Assert.Equal(3, GetLength("abcabcbb"));
+    
+    [Fact]
+    private void LengthOfLongestSubstring_pwwkew_3() =>
+        Assert.Equal(3, GetLength("pwwkew"));
 }
