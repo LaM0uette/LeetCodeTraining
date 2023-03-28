@@ -36,5 +36,7 @@
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LongestSubstringWithoutRepeatingCharactersTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LongestPalindromicSubstringTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ZigzagConversionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.StringToIntegerTest.MyAtoi_WithEmptyString_ReturnsZero&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.StringToIntegerTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
