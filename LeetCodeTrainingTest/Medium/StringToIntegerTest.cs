@@ -23,6 +23,14 @@ public class StringToIntegerTest
     }
     
     [Fact]
+    private void MyAtoi_Space042_42()
+    {
+        Assert.Equal(42, GetAtoi(" 042"));
+        Assert.Equal(-42, GetAtoi(" -042"));
+        Assert.Equal(+42, GetAtoi(" +042"));
+    }
+    
+    [Fact]
     private void MyAtoi_SpaceArround101_101()
     {
         Assert.Equal(101, GetAtoi(" 101 "));
