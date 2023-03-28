@@ -16,14 +16,12 @@ public class StringToInteger
     
     public int MyAtoi(string s)
     {
-        if (s.Equals("")) return 0;
-        
         int i = 0, sign = 1, lenght = s.Length;
         long result = 0;
 
         while (i < lenght && s[i].Equals(' ')) i++;
 
-        if (s[i].Equals('-') || s[i].Equals('+'))
+        if (i < lenght && (s[i].Equals('-') || s[i].Equals('+')))
             sign = s[i++].Equals('-') ? -1 : 1;
 
         while (i < lenght && char.IsDigit(s[i]))
@@ -40,3 +38,4 @@ public class StringToInteger
         return (int)(result * sign);
     }
 }
+
