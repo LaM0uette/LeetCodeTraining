@@ -16,6 +16,8 @@ public class StringToInteger
     
     public int MyAtoi(string s)
     {
+        if (s.Equals("")) return 0;
+
         throw new NotImplementedException();
     }
 }
