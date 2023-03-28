@@ -6,6 +6,7 @@ public class StringToIntegerTest
 {
     private StringToInteger _stringToInteger = new();
     private int GetAtoi(string s) => _stringToInteger.MyAtoi(s);
+    //private int GetAtoi(string s) => _stringToInteger.MyAtoiRegex(s);
     
     [Fact]
     private void MyAtoi_WithEmptyString_ReturnsZero()

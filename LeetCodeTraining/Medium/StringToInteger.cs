@@ -4,7 +4,7 @@ namespace LeetCodeTraining.Medium;
 
 public class StringToInteger
 {
-    public int MyAtoi(string s) {
+    public int MyAtoiRegex(string s) {
         
         var m = Regex.Match(s.TrimStart(), @"^([-+]?\d+)");
         
@@ -12,5 +12,10 @@ public class StringToInteger
         if (int.TryParse(m.Groups[0].Value, out var result)) return result;
         
         return m.Groups[0].Value.StartsWith("-") ? int.MinValue : int.MaxValue;
+    }
+    
+    public int MyAtoi(string s)
+    {
+        throw new NotImplementedException();
     }
 }
