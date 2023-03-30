@@ -50,6 +50,24 @@ public class NumberOfDigitOneTest
     }
     
     [Fact]
+    private void CountDigitOne_50_15()
+    {
+        Assert.Equal(15, GetD1(50));
+    }
+    
+    [Fact]
+    private void CountDigitOne_80_18()
+    {
+        Assert.Equal(18, GetD1(80));
+    }
+    
+    [Fact]
+    private void CountDigitOne_85_19()
+    {
+        Assert.Equal(19, GetD1(85));
+    }
+    
+    [Fact]
     private void CountDigitOne_100_21()
     {
         Assert.Equal(21, GetD1(100));
