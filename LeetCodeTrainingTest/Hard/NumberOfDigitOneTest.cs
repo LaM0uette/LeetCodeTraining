@@ -5,6 +5,7 @@ namespace LeetCodeTrainingTest.Hard;
 public class NumberOfDigitOneTest
 {
     private NumberOfDigitOne _numberOfDigitOne = new();
+    //private int GetD1(int n) => _numberOfDigitOne.CountDigitOneSlow(n);
     private int GetD1(int n) => _numberOfDigitOne.CountDigitOne(n);
 
     [Fact]
@@ -78,7 +79,7 @@ public class NumberOfDigitOneTest
     {
         Assert.Equal(301, GetD1(1000));
     }
-    
+
     [Fact]
     private void CountDigitOne_1000000000_900000001()
     {
