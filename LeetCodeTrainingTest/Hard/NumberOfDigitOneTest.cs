@@ -30,4 +30,12 @@ public class NumberOfDigitOneTest
     {
         Assert.Equal(0, GetD1(-5));
     }
+    
+    [Fact]
+    private void CountDigitOne_10_2()
+    {
+        Assert.Equal(2, GetD1(10));
+    }
+    
+    
 }
