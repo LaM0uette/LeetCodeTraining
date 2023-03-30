@@ -4,6 +4,6 @@ public class NumberOfDigitOne
 {
     public int CountDigitOne(int n)
     {
-        throw new NotImplementedException();
+        return n.Equals(0) ? 0 : 1;
     }
 }

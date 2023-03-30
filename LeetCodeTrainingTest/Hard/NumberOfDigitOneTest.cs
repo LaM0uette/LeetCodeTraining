@@ -12,4 +12,16 @@ public class NumberOfDigitOneTest
     {
         Assert.Equal(0, GetD1(0));
     }
+    
+    [Fact]
+    private void CountDigitOne_1_1()
+    {
+        Assert.Equal(1, GetD1(1));
+    }
+    
+    [Fact]
+    private void CountDigitOne_5_1()
+    {
+        Assert.Equal(1, GetD1(5));
+    }
 }
