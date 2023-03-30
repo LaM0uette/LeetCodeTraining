@@ -48,4 +48,22 @@ public class NumberOfDigitOneTest
     {
         Assert.Equal(8, GetD1(15));
     }
+    
+    [Fact]
+    private void CountDigitOne_100_21()
+    {
+        Assert.Equal(21, GetD1(100));
+    }
+    
+    [Fact]
+    private void CountDigitOne_1000_301()
+    {
+        Assert.Equal(301, GetD1(1000));
+    }
+    
+    [Fact]
+    private void CountDigitOne_1000000000_900000001()
+    {
+        Assert.Equal(900000001, GetD1(1000000000));
+    }
 }
