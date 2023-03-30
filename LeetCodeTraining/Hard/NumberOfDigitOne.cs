@@ -10,7 +10,7 @@ public class NumberOfDigitOne
         for (var i = 0; i <= n; i++)
         {
             var iString = i.ToString();
-            if (iString.Contains('1')) count++;
+            count += iString.Count(c => c.Equals('1'));
         }
 
         return count;

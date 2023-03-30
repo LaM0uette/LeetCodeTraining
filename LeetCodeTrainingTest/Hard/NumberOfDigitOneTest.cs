@@ -37,5 +37,15 @@ public class NumberOfDigitOneTest
         Assert.Equal(2, GetD1(10));
     }
     
+    [Fact]
+    private void CountDigitOne_13_6()
+    {
+        Assert.Equal(6, GetD1(13));
+    }
     
+    [Fact]
+    private void CountDigitOne_15_8()
+    {
+        Assert.Equal(8, GetD1(15));
+    }
 }
