@@ -11,7 +11,7 @@ public class Solution
             var c = strs[0][i];
             for (var j = 1; j < strs.Length; j++)
             {
-                if (i == strs[j].Length || strs[j][i] != c)
+                if (i.Equals(strs[j].Length) || !strs[j][i].Equals(c))
                     return strs[0][..i];
             }
         }
