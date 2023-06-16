@@ -25,6 +25,16 @@ public class LongestCommonPrefixTest
     }
     
     [Fact]
+    public void LongestCommonPrefix_FlowerFlowerFlower_Fl()
+    {
+        var lst = new[] { "flower","flower","flower" };
+        
+        var result = new Solution().LongestCommonPrefix(lst);
+        
+        Assert.Equal("flower", result);
+    }
+    
+    [Fact]
     public void LongestCommonPrefix_DogRacecarCar_EmptyString()
     {
         var lst = new[] { "dog","racecar","car" };

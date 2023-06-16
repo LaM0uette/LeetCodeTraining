@@ -10,9 +10,9 @@ public class Solution
         var prefix = "";
         var currentPrefix = "";
 
-        for (var i = 0; i < iLenght-1;i++)
+        for (var i = 0; i < iLenght;i++)
         {
-            currentPrefix = lst[0][..i];
+            currentPrefix = lst[0][..(i+1)];
             
             if (!lst.All(s => s.StartsWith(currentPrefix))) break;
 
