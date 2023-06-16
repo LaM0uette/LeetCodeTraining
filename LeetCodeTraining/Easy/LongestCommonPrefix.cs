@@ -8,19 +8,15 @@ public class Solution
         
         var iLenght = lst[0].Length;
         var prefix = "";
+        var currentPrefix = "";
 
-        for (var i = 0; i < iLenght;i++)
+        for (var i = 0; i < iLenght-1;i++)
         {
-            foreach (var str in lst)
-            {
-                var currentPrefix = str[..i];
+            currentPrefix = lst[0][..i];
+            
+            if (!lst.All(s => s.StartsWith(currentPrefix))) break;
 
-                if (!currentPrefix.Equals(prefix) && !prefix.Equals("")) return "";
-            
-                prefix = currentPrefix;
-            
-                i++;
-            }
+            prefix = currentPrefix;
         }
 
         return prefix;
