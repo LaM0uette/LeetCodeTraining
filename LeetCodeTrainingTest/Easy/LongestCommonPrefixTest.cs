@@ -33,4 +33,14 @@ public class LongestCommonPrefixTest
         
         Assert.Equal("", result);
     }
+    
+    [Fact]
+    public void LongestCommonPrefix_CarFlowerBusFlowFlightVehicle_EmptyString()
+    {
+        var lst = new[] { "car", "flower", "bus", "flow", "flight", "vehicle" };
+        
+        var result = new Solution().LongestCommonPrefix(lst);
+        
+        Assert.Equal("", result);
+    }
 }
