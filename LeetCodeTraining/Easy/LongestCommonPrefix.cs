@@ -2,23 +2,20 @@
 
 public class Solution
 {
-    public string LongestCommonPrefix(string[] lst)
+    public string LongestCommonPrefix(string[] strs)
     {
-        if (lst.Length <= 0) return "";
-        
-        var iLenght = lst[0].Length;
-        var prefix = "";
-        var currentPrefix = "";
+        if (strs.Length.Equals(0)) return "";
 
-        for (var i = 0; i < iLenght;i++)
+        for (var i = 0; i < strs[0].Length; i++)
         {
-            currentPrefix = lst[0][..(i+1)];
-            
-            if (!lst.All(s => s.StartsWith(currentPrefix))) break;
-
-            prefix = currentPrefix;
+            var c = strs[0][i];
+            for (var j = 1; j < strs.Length; j++)
+            {
+                if (i == strs[j].Length || strs[j][i] != c)
+                    return strs[0][..i];
+            }
         }
 
-        return prefix;
+        return strs[0];
     }
 }
