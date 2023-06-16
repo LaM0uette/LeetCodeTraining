@@ -6136,11 +6136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\__PROG__\\LeetCodeTraining\\LeetCodeTrainingTest\\LeetCodeTrainingTest.csproj",
+      "projectUniqueName": "C:\\Projets\\C#\\GitHub\\LeetCodeTraining\\LeetCodeTrainingTest\\LeetCodeTrainingTest.csproj",
       "projectName": "LeetCodeTrainingTest",
-      "projectPath": "D:\\__PROG__\\LeetCodeTraining\\LeetCodeTrainingTest\\LeetCodeTrainingTest.csproj",
+      "projectPath": "C:\\Projets\\C#\\GitHub\\LeetCodeTraining\\LeetCodeTrainingTest\\LeetCodeTrainingTest.csproj",
       "packagesPath": "C:\\Users\\doria\\.nuget\\packages\\",
-      "outputPath": "D:\\__PROG__\\LeetCodeTraining\\LeetCodeTrainingTest\\obj\\",
+      "outputPath": "C:\\Projets\\C#\\GitHub\\LeetCodeTraining\\LeetCodeTrainingTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6162,8 +6162,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\__PROG__\\LeetCodeTraining\\LeetCodeTraining\\LeetCodeTraining.csproj": {
-              "projectPath": "D:\\__PROG__\\LeetCodeTraining\\LeetCodeTraining\\LeetCodeTraining.csproj"
+            "C:\\Projets\\C#\\GitHub\\LeetCodeTraining\\LeetCodeTraining\\LeetCodeTraining.csproj": {
+              "projectPath": "C:\\Projets\\C#\\GitHub\\LeetCodeTraining\\LeetCodeTraining\\LeetCodeTraining.csproj"
             }
           }
         }
@@ -6215,7 +6215,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,45 +1,4 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\doria\AppData\Local\JetBrains\Rider2023.1\resharper-host\temp\Rider\vAny\CoverageData\_LeetCodeTraining.-978454700\Snapshot\snapshot.utdcvr</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1e343367_002Dbc12_002D4c02_002Dab03_002D4d2fef251637/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Hard.FindMedianSortedArrays.Test1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Hard.FindMedianSortedArrays.Test2&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Hard.FindMedianSortedArrays.Test3&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ZigzagConversion.Test1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ZigzagConversion.Test2&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Easy.RomanToIntegerTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LongestPalindromicSubstringTest.LongestPalindrome_babad_bab&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LongestPalindromicSubstringTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ContainerWithMostWaterTest.MaxArea_11_1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ContainerWithMostWaterTest.MaxArea_123_1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ContainerWithMostWaterTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LetterCombinationsPhoneNumberTest.LetterCombinations_null_&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LetterCombinationsPhoneNumberTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.AddTwoNumbersTest.AddTwoNumbers_00_0&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.AddTwoNumbersTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=76ba82fb_002D99b6_002D497d_002Dacc4_002D024f84757c60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddTwoNumbers_0101_20" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.AddTwoNumbersTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ae5f4c4b_002D97fb_002D48a2_002D91a9_002Db86c4a9a9e69/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddTwoNumbers_9429465_70401" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.AddTwoNumbersTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Easy.FizzBuzzTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Hard.NumberOfDigitOneTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c30f2d99_002D56fc_002D47fb_002D84ed_002Dc30dcc5ec58d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddTwoNumbers_0000_0" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.AddTwoNumbersTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LongestSubstringWithoutRepeatingCharactersTest.LengthOfLongestSubstring_bbbbb_1&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LongestSubstringWithoutRepeatingCharactersTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.LongestPalindromicSubstringTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.ZigzagConversionTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.StringToIntegerTest.MyAtoi_WithEmptyString_ReturnsZero&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Medium.StringToIntegerTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2B56C5A2-AB01-4EFA-861F-9C4A73B91DE5::net7.0::LeetCodeTrainingTest.Easy.FizzBuzzTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a37fbeee_002Db09d_002D4c2f_002D9307_002D51b34016b645/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
