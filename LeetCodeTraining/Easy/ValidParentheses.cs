@@ -12,6 +12,8 @@ public class ValidParentheses
         {
             if (c is '(' or '[' or '{')
                 stack.Push(c);
+            else if (stack.Count.Equals(0))
+                return false;
             else
             {
                 var top = stack.Pop();
