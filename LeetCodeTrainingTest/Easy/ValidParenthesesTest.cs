@@ -36,4 +36,26 @@ public class ValidParenthesesTest
         
         Assert.False(isValid);
     }
+    
+    [Fact]
+    public void IsValid_PoCf_False()
+    {
+        const string s = "(}";
+        var validParentheses = new ValidParentheses();
+        
+        var isValid = validParentheses.IsValid(s);
+        
+        Assert.False(isValid);
+    }
+    
+    [Fact]
+    public void IsValid_AoAf_True()
+    {
+        const string s = "()[]{}";
+        var validParentheses = new ValidParentheses();
+        
+        var isValid = validParentheses.IsValid(s);
+        
+        Assert.True(isValid);
+    }
 }
