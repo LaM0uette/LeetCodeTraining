@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bm6LzGyfcYaEIdKsfxWYO7LhRz3ottVyRE2jQC85v3Sk6lxEUe2ZE97h93kRnHK0NSaTSMmgEV7yAW9EQgN4Fg==",
+  "dgSpecHash": "l72j/IZvwvvz4wBBCfDgS7Jv4OzQdtWUeKXrl0tAAbBIhRXW73uxtY7/jgp9EvukTZegiOF6eq4acBZ+YlvYtA==",
   "success": true,
-  "projectFilePath": "C:\\Projets\\C#\\GitHub\\LeetCodeTraining\\LeetCodeTrainingTest\\LeetCodeTrainingTest.csproj",
+  "projectFilePath": "D:\\Projets\\Training\\LeetCodeTraining\\LeetCodeTrainingTest\\LeetCodeTrainingTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\doria\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\doria\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

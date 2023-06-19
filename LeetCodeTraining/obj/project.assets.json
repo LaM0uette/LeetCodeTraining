@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projets\\C#\\GitHub\\LeetCodeTraining\\LeetCodeTraining\\LeetCodeTraining.csproj",
+      "projectUniqueName": "D:\\Projets\\Training\\LeetCodeTraining\\LeetCodeTraining\\LeetCodeTraining.csproj",
       "projectName": "LeetCodeTraining",
-      "projectPath": "C:\\Projets\\C#\\GitHub\\LeetCodeTraining\\LeetCodeTraining\\LeetCodeTraining.csproj",
+      "projectPath": "D:\\Projets\\Training\\LeetCodeTraining\\LeetCodeTraining\\LeetCodeTraining.csproj",
       "packagesPath": "C:\\Users\\doria\\.nuget\\packages\\",
-      "outputPath": "C:\\Projets\\C#\\GitHub\\LeetCodeTraining\\LeetCodeTraining\\obj\\",
+      "outputPath": "D:\\Projets\\Training\\LeetCodeTraining\\LeetCodeTraining\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
