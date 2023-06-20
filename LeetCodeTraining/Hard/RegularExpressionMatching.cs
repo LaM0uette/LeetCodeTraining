@@ -12,13 +12,13 @@ public class RegularExpressionMatching
             {
                 var firstMatch = i < s.Length && (p[j].Equals(s[i]) || p[j].Equals('.'));
 
-                if (j+1 < p.Length && p[j+1].Equals('*')){
+                if (j+1 < p.Length && p[j+1].Equals('*'))
                     dp[i,j] = dp[i,j+2] || firstMatch && dp[i+1,j];
-                } else {
+                else
                     dp[i,j] = firstMatch && dp[i+1,j+1];
-                }
             }
         }
+        
         return dp[0,0];
     }
 }
